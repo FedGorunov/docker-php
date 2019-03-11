@@ -1,10 +1,24 @@
 # docker-php
-docker-compose up -d    (start docker)
 
-docker-compose restart   (restart)
- 
-docker ps                 (all docker containers started)
+## commands
 
-docker exec -it  <containers id > bash    (start bash into container)
-
-docker-compose build       (rebuild docker container)
+### start docker
+```bash
+docker-compose up -d
+```
+### restart
+```bash
+docker-compose restart
+```
+### all docker containers start
+ ```bash
+docker ps   
+```
+### start bash into container
+```bash
+docker exec -it  <containers id > bash
+```
+### rebuild docker container
+```bash
+docker-compose build       
+```
